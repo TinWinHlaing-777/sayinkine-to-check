@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Sayin kine",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/app_icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive_icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.nksoftwarehouse.sayinkine",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png",
+      "build": {
+        "babel": {
+          "include": [
+            "react-router-native"
+          ]
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29d349c6-f556-4f10-9e04-28022c409ba8"
+      }
+    }
+  }
+}
